@@ -20,3 +20,10 @@ def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
 
+def test_calc_modulo():
+    output = modulo_numbers(8,6)
+    assert output == 2
+
+def test_calc_exponent():
+    output = exponent_numbers(2,3)
+    assert output == 8
